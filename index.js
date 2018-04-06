@@ -3,7 +3,6 @@
 var HttpsProxyAgent = require('https-proxy-agent');
 var Transport = require('azure-iot-device-mqtt').MqttWs;
 var Client = require('azure-iot-device').Client;
-var SharedAccessKeyAuthenticationProvider = require('azure-iot-device').SharedAccessKeyAuthenticationProvider;
 var Message = require('azure-iot-device').Message;
 var send = require('./send.js');
 
